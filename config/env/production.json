@@ -1,7 +1,6 @@
 {
   "env": {
     "NODE_ENV": "production",
-    "PORT": 8080,
     "VERBOSE": true
   }
 }
