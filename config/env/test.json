@@ -1,0 +1,7 @@
+{
+  "env": {
+    "NODE_ENV": "test",
+    "PORT": 5000,
+    "VERBOSE": false
+  }
+}
