@@ -52,6 +52,27 @@ module.exports = {
 ```
 
 ### Other
+#### New gulp task
+To add a new gulp task, create a new file in <code>gulp</code>. For example, <code>myTask.js</code>:
+```
+// Contents of myTask.js
+module.exports = function (gulp, plugins) {
+  return function () {
+    // Do your task here
+  };
+};
+```
+
+and add the task the to gulpfile.js:
+```
+gulp.task('myTaskCommand', getTask('myTask'));
+```
+and you can run the task using:
+```
+gulp myTaskCommand
+```
+
+
 #### Collections
 This is custom class to help filter arrays using mongodb-like queries. For example,:
 ```
