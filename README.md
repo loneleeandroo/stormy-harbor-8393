@@ -7,7 +7,7 @@ Clone the repository to your local machine and start the server. By default, you
 git clone git@github.com:loneleeandroo/stormy-harbor-8393.git
 cd stormy-harbor-8393
 npm update // Or sudo npm update if you're having permission problems
-gulp serve // You can stop the server using Ctrl+C
+gulp serve // You can kill the process using Ctrl+C
 ```
 
 ### Deployment
