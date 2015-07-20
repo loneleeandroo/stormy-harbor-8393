@@ -5,6 +5,7 @@ A simple API server built using [restify](https://www.npmjs.com/package/restify)
 Clone the repository to your local machine and start the server. By default, you should be able to access it at <code>http://localhost:3000</code>
 ```
 git clone git@github.com:loneleeandroo/stormy-harbor-8393.git
+cd stormy-harbor-8393
 gulp serve
 ```
 
