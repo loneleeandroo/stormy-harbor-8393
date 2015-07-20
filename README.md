@@ -53,8 +53,10 @@ module.exports = {
 
 ### Other
 #### Collections
-This is custom class to help filter arrays using mongodb-like queries. For example:
+This is custom class to help filter arrays using mongodb-like queries. For example,:
 ```
+var Collection = require(path/to/lib/collection);
+
 /*
  * Converts an Array into a Collection
  *
