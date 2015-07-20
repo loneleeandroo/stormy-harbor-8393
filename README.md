@@ -6,6 +6,7 @@ Clone the repository to your local machine and start the server. By default, you
 ```
 git clone git@github.com:loneleeandroo/stormy-harbor-8393.git
 cd stormy-harbor-8393
+npm update
 gulp serve
 ```
 
